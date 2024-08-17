@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 
-const Form = (props) => {
+const BookingForm = (props) => {
 
    const [type, setType] = useState("");
    const [guests, setGuests] = useState("");
@@ -56,4 +56,4 @@ const Form = (props) => {
   );
 };
 
-export default Form;
+export default BookingForm;

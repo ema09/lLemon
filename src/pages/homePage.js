@@ -1,8 +1,8 @@
 import React, { useReducer } from "react";
 import { Route, Routes, useNavigate } from "react-router-dom";
-import Form from "./form";
 import Feedback from "../components/feedback";
 import Infos from "../components/infos";
+import Booking from "./Booking";
 
 
 const HomePage = () => {
@@ -32,7 +32,7 @@ const HomePage = () => {
         <main>
             <Routes>
                 <Route path="/" element={<Infos />} />
-                <Route path="/booking" element={<Form availableTimes={state} dispatch={dispatch} submitForm={submitForm}/>} />
+                <Route path="/booking" element={<Booking availableTimes={state} dispatch={dispatch} submitForm={submitForm}/>} />
                 <Route path="/completed" element={<Feedback/> } />
             </Routes>
         </main>

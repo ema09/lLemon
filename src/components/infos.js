@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import food from "../assets/image.webp"
+import food from "../assets/food1.avif"
 
 
 const Infos = () => {
@@ -9,8 +9,8 @@ const Infos = () => {
             <section>
             <div>
             <h2>Little Lemon</h2>
-            <h3>Barcellona</h3>
-            <p>A tasting menu, thath will drive you to an explosion of the senses carried out at just the right pace. </p>
+            <h3>Chicago</h3>
+            <p>We are a family owned Mediterranean restaurant, focused on traditional recipes served with a modern twist.</p>
             <Link to="/Booking"><button aria-label="On Click">Reserve Table</button></Link>
             </div>
             <div>
